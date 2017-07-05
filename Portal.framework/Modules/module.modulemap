@@ -1,0 +1,11 @@
+framework module Portal {
+  umbrella header "Portal.h"
+
+  export *
+  module * { export * }
+}
+
+module Portal.Swift {
+    header "Portal-Swift.h"
+    requires objc
+}
